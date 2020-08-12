@@ -1,0 +1,39 @@
+package day4;
+
+public class task3 {
+
+public static boolean isCapsOnly(String data) {
+
+boolean f=true;
+
+char[] arr=data.toCharArray();
+
+       for( int i=0;i<data.length();i++) {
+
+if(arr[i]>=65 && arr[i]<=90) {
+
+          f=true;
+
+}
+else {
+f=false;
+}
+       }
+
+return f;
+
+
+
+}
+
+public static void main(String[] args) {
+
+System.out.println(isCapsOnly("FRDjhu"));
+
+}
+
+}
+
+
+
+

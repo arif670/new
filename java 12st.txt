@@ -1,0 +1,23 @@
+package day3;
+import java.util.Scanner;
+public class task3 {
+
+	public static void main(String[] args) {
+		int x=1234;
+		int reversex =0;
+		System.out.println("given the  number");
+		Scanner in = new Scanner(System.in);
+		x = in.nextInt();
+		while( x != 0 )
+		{
+			reversex = reversex * 10;
+			reversex = reversex + x%10;
+			x = x/10;
+		}
+		System.out.println("reverse the given number is: "+reversex);
+			
+		
+
+	}
+
+}

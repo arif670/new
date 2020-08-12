@@ -1,0 +1,39 @@
+package day3;
+
+public class task5 {
+
+	String name;
+	int custId;
+	int number;
+	float cost;
+	
+	public custmor(String name, int custId,int number,float cost) {
+	
+		
+		
+		
+		
+	}
+	
+	public task5(String name, int custId, int number, float cost) {
+		super();
+		this.name = name;
+		this.custId = custId;
+		this.number = number;
+		this.cost = cost;
+	}
+	void disp() {
+		System.out.println(name);
+	}
+
+   public class task5{
+	   
+	   public static void main(String[] args) {
+   Custmor custmor=new Custmor("arif",123,144,1400.0f);
+	
+		custmor disp();
+	   }
+
+	}
+
+}

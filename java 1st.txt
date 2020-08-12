@@ -1,0 +1,20 @@
+package pratice1;
+
+public class p2 {
+	int x;
+	void disp() {
+		System.out.println("x");
+	}
+	static void disp2()
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		TypesOfVars t=new TypesOfVars()
+				t.disp();
+		
+
+	}
+
+}

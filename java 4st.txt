@@ -1,0 +1,22 @@
+package day4;
+
+public class task1 {
+  string rep(String inp,char old,char given)
+  {
+	  char[]arr=inp.toCharArray();
+	  for(int i=0;i<inp.length();i++) {
+		  if(arr[i]==old)
+		  {
+			  arr[i]=given;
+			  break;
+	  }
+	  String mantask=new String(arr);
+	  return mantask;
+  }
+	public static void main(String[] args) {
+		 task1 scm=new task1();
+		 String data=scm.rep("Hello world",'o','z');
+		 		System.out.println(data);
+	}
+
+}

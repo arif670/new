@@ -1,0 +1,36 @@
+package day4;
+
+public class task4 {
+
+static int count;
+
+public void  isCapsNum(String data) {
+
+
+
+char[] arr=data.toCharArray();
+
+       for( int i=0;i<data.length();i++) {
+
+if(arr[i]>=65 && arr[i]<=90) {
+count ++;
+}
+
+       }
+
+System.out.println("The number of capitals are "  +count);
+
+
+
+}
+
+public static void main(String[] args) {
+task4 u=new task4();
+u.isCapsNum("jHYAAJoxdsz");
+
+
+}
+
+}
+
+
